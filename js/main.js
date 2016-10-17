@@ -1,26 +1,28 @@
 jQuery(function() {
 
+    // Even handler for hitting the enter key and getting the value of the text input
     $("#submitForm").on("submit", function() {
-        event.preventDefault();
-        var text = $("#searchBox").val();
-        getWeather(text);
+            event.preventDefault();
+            var text = $("#searchBox").val();
+            getWeather(text);
 
-    })
-
+        })
+        // Even handler for clicking the button and getting the value of the text input
     $("#button").on("click", function() {
-        var text = $("#searchBox").val();
-        getWeather(text);
+            var text = $("#searchBox").val();
+            getWeather(text);
 
-    })
-
+        })
+        // Function for getting clearing the HTML, pulling data from the weather API and appending the returned data to the page
     function getWeather(query) {
+        // Get weather data from OPen Weather Map API
         $("#putWeatherHere").html("");
         $.ajax({
             url: `http://api.openweathermap.org/data/2.5/forecast/daily?q=${query},US&cnt=7&APPID=f5e364968f16eed20ecfaf7efa2d6303&units=imperial`,
             method: 'GET',
             success: function successHandler(weatherData) {
                 console.log(weatherData);
-
+                // Append data to the putWeatherHere id on the page
                 weatherData.list.forEach(function(weatherData) {
                     $("#putWeatherHere").append(`
                 <tr>
