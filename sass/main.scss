@@ -1,5 +1,5 @@
 body {
-    background-color: #6cbfee;
+    background-color: #a05608;
     color: white;
     font-family: 'Bree Serif', serif;
     font-size: 25px;
@@ -7,6 +7,7 @@ body {
 
 input {
     color: gray;
+    margin-top: 15px;
 }
 
 td {
@@ -19,7 +20,7 @@ td {
 }
 
 .form-control:focus {
-    border-color: #3f5c8c;
+    border-color: #EC971F;
     box-shadow: none;
 }
 
