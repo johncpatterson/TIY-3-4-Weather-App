@@ -1,24 +1,38 @@
 body {
     background-color: #6cbfee;
     color: white;
-    font-family: 'Copse', serif;
+    font-family: 'Bree Serif', serif;
     font-size: 25px;
 }
 
-td {
-    padding: 10px;
+input {
+    color: gray;
 }
 
-.day {}
+td {
+    padding: 15px;
+}
 
-.day_name {}
+.weather_icon img {
+    height: 70px;
+    width: 70px;
+}
+
+.form-control:focus {
+    border-color: #3f5c8c;
+    box-shadow: none;
+}
+
+.day_name {
+    font-size: 30px;
+}
 
 .weather_description {}
 
-.weather_icon {}
+.day_high {
+    font-size: 20px;
+}
 
-.day_high {}
-
-.day_low {}
-
-#putWeatherHere {}
+.day_low {
+    font-size: 20px;
+}

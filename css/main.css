@@ -1,8 +1,28 @@
 body {
   background-color: #6cbfee;
   color: white;
-  font-family: 'Copse', serif;
+  font-family: 'Bree Serif', serif;
   font-size: 25px; }
 
+input {
+  color: gray; }
+
 td {
-  padding: 10px; }
+  padding: 15px; }
+
+.weather_icon img {
+  height: 70px;
+  width: 70px; }
+
+.form-control:focus {
+  border-color: #3f5c8c;
+  box-shadow: none; }
+
+.day_name {
+  font-size: 30px; }
+
+.day_high {
+  font-size: 20px; }
+
+.day_low {
+  font-size: 20px; }
