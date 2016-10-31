@@ -1,26 +1,26 @@
 {
-  "name": "tiy_2_3_t_shirt_cost",
+  "name": "tiy_3_4_weather_app",
   "version": "1.0.0",
-  "description": "T Shirt Cost ",
+  "description": "Weather App",
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johncpatterson/TIY-2-3-T-Shirt-Cost.git"
+    "url": "git+https://github.com/johncpatterson/TIY-3-4-Weather-App.git"
   },
   "author": "John Patterson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johncpatterson/TIY-2-3-T-Shirt-Cost/issues"
+    "url": "https://github.com/johncpatterson/TIY-3-4-Weather-App/issues"
   },
-  "homepage": "https://github.com/johncpatterson/TIY-2-3-T-Shirt-Cost#readme",
+  "homepage": "https://github.com/johncpatterson/TIY-3-4-Weather-App#readme",
   "devDependencies": {
     "browser-sync": "^2.17.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.2.0",
     "gulp-sass": "^2.3.2",
-    "moment": "^2.4.0"
+    "moment": "^2.15.1"
   }
 }
